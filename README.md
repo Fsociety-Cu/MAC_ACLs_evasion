@@ -20,5 +20,4 @@ Modo de uso:
 chmod +x MAC_ACLs_evasion.sh 
 
 2- Ejecutar el script y seguir las indicaciones 
-mostradas en pantalla.
-./MAC_ACLs_evasion.sh
+mostradas en pantalla. ./MAC_ACLs_evasion.sh
