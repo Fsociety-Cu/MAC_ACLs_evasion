@@ -1,3 +1,7 @@
+Script para evadir el filtrado MAC de cualquier 
+punto de acceso, siempre que la función de Client 
+Insolation se encuentre descativada.
+
 También permite saltarse el Portal Cautivo de ETECSA.
 
 Requisitos:
