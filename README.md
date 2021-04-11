@@ -1,7 +1,4 @@
- Este script permite evadir el filtrado MAC
-de cualquier AP siempre que este tenga
-desactivada la función de aislamiento del
-cliente.
+También permite saltarse el Portal Cautivo de ETECSA.
 
 Requisitos:
 
