@@ -1,18 +1,22 @@
+    MAC_ACLs_evasion (Testeada en Kali Linux)
+
 Script para evadir el filtrado MAC de cualquier 
-punto de acceso, siempre que la función de Client 
-Insolation se encuentre descativada.
+AP, siempre que la función de Client Isolation
+se encuentre desactivada.
 
-También permite saltarse el Portal Cautivo de ETECSA.
-
-Requisitos:
+También permite evadir el Portal Cautivo de ETECSA.
 
 
- 1- Tarjeta de red compatible con modo monitor
+
+             Requisitos:
+
+
+ 1- Tarjeta de red inalámbrica compatible con modo monitor
 e inyección de paquetes.
 
- 2- Suite Aircarck-ng 
+ 2- Suite Aircrack-ng 
 
-Modo de uso:
+             Modo de uso:
 
 
 
