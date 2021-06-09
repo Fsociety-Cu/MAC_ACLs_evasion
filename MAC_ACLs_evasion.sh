@@ -83,7 +83,7 @@ function escaneo_de_redes(){
    xterm $BOTTOMRIGHT -fg "#FF4500" -T "Puntos de acceso" -e airodump-ng --output-format kismet --write captura "$iface"mon & sleep 10 ; kill $! 
   kill %1
 
-	#modificamos el archivo de captura para almacenar los datos en bariables(eliminamos la primera linea)
+	
 	sed '1d' captura-01.kismet.csv >> dump.csv
 	rm captura-01.kismet.csv
 	clear
@@ -151,7 +151,5 @@ clientes_asociados
 deauth 
 conect
 
- #beta
- #nmcli connection modify " + ap_objetivo_ESSID + " ipv4.addresses " + ip_cliente + "/24 ipv4.gateway " + gateway_cliente[0] + '.1' + " +ipv4.dns " + "8.8.8.8" + " ipv4.method manual connection.autoconnect false
-
+ 
 
